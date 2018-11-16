@@ -1,0 +1,15 @@
+{
+	"type":"BARREPORT",
+	"server":"barServerName",
+	"ip":"barServerIp",
+	"time":"reportTime",
+	"nance":4287398472,
+	"state":"active",
+	"env":{
+		"sys":"bar1.0",
+		"cpu":"cpuPercent*100",
+		"mem":"memPercent*100",
+		"total":100,
+		"available":87,
+	}
+}

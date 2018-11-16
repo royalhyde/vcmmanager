@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CMS</title>
+    <script type="text/javascript">
+    <!--
+        function MM_jumpOperation(targ,selObj,restore) {//v3.0
+            eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+            if(restore) selObj.selectedIndex=0;
+        }
+    //-->
+    </script>
+</head>
+<body>
+<li>***********CMS test***********</li>
+<form name="login" action={% url 'cert:certlogin' %} method="POST">
+    User Name:<input type="text" name="username"><br>
+    Password:<input type="password" name="passwd"><br>
+    <input type="submit" value="login">
+</form>
+</body>
+</html>

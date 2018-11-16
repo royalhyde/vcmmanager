@@ -1,0 +1,23 @@
+{
+	"type":"HOSTREPORT",
+	"server":"serverName",
+	"ip":"serverIp",
+	"time":"reportTime",
+	"nance":"43238843298",
+	"state":"active",
+	"env":{
+		"sys":"host1.0",
+		"cpu":"cpuPercent",
+		"mem":"memPercent",
+		"total":12,
+		"available":7,
+	},
+	"spec":["005","004","003","002",],
+	"avaiInstBySpec":
+	{
+		"005":4,
+		"004":0,
+		"003":2,
+		"002":1
+	}
+}
